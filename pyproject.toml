@@ -5,16 +5,16 @@ description = "Record and replay ASGI web page loads"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]
 license = {text = "Apache-2.0"}
-
-[project.urls]
-Homepage = "https://github.com/simonw/asgi-replay"
-Changelog = "https://github.com/simonw/asgi-replay/releases"
-Issues = "https://github.com/simonw/asgi-replay/issues"
-CI = "https://github.com/simonw/asgi-replay/actions"
-
 dependencies = [
     "asgi-proxy-lib",
     "click",
     "uvicorn"
 ]
 scripts = { asgi-replay = "asgi_replay:asgi_replay" }
+
+
+[project.urls]
+Homepage = "https://github.com/simonw/asgi-replay"
+Changelog = "https://github.com/simonw/asgi-replay/releases"
+Issues = "https://github.com/simonw/asgi-replay/issues"
+CI = "https://github.com/simonw/asgi-replay/actions"
