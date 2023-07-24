@@ -2,7 +2,6 @@
 
 [![PyPI](https://img.shields.io/pypi/v/asgi-replay.svg)](https://pypi.org/project/asgi-replay/)
 [![Changelog](https://img.shields.io/github/v/release/simonw/asgi-replay?include_prereleases&label=changelog)](https://github.com/simonw/asgi-replay/releases)
-[![Tests](https://github.com/simonw/asgi-replay/workflows/Test/badge.svg)](https://github.com/simonw/asgi-replay/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/asgi-replay/blob/main/LICENSE)
 
 A tool for recording and replaying requests using ASGI.
